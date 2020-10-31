@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+   /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #header {
+    padding: 20px;
+    text-align: center;
+    background: lightblue;
+    color: rgb(19, 7, 7);   
+  }
+  #header-img {
+    width: 20%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+  } 
+  /* Increase the font size of the heading */
+  #header h1 {
+    font-size: 70px;
+  }
+  /* Style the top navigation bar*/ 
+  #nav-bar {
+    overflow: hidden;
+    background-color: rgb(48, 46, 46);
+    width: 95.5%;
+    position: fixed;
+    top: 0;
+    font-size: 30px;
+    padding: 14px 16px;
+  }
+  /* Style the navigation links */
+  #nav-link {
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+  }
+  /* Remove underline on nav-link*/
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  /* Change color on hover */
+  #nav-bar a:hover {
+    background-color: green;
+    color: rgba(128, 15, 53, 0.863)
+  }
+
+  #video {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    display: flex;
+  }
+  #About, #Services, #Contacts, #form {
+    -ms-flex: 30%;  display: ruby-base;
+    flex: 30%;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
+  ul{
+    text-align: left;
+  }
+  .list ul{
+    display: inline-table;
+  }
+  @media screen and (max-width: 700px) {
+    body {   
+      background-color: teal;
+    }
+  }
+  
